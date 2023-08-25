@@ -11,13 +11,13 @@
     <h1>Registro</h1>
     <form action="../php/registro.php" method="post">
       <label for="username">Nombre de usuario:</label>
-      <input type="text" id="username" name="nombre" required>
+      <input type="text" id="nombre" name="nombre" required>
       
       <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="correo" required>
+      <input type="email" id="correo" name="correo" required>
       
       <label for="password">Contraseña:</label>
-      <input type="password" id="password" name="contrasena" required>
+      <input type="password" id="contraseña" name="contrasena" required>
       
       <button type="submit">Registrarse</button>
     </form>
